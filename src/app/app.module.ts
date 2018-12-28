@@ -9,6 +9,7 @@ import { NavigationComponent } from './navigation/navigation.component';
 import { HomeComponent } from './home/home.component';
 import {  CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { DDComponent } from './dd/dd.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { DDComponent } from './dd/dd.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    DragDropModule
+    DragDropModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent],

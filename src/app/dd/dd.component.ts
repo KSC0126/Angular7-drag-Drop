@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { CdkDragDrop, moveItemInArray, transferArrayItem } from '@angular/cdk/drag-drop';
+import { FormsModule } from '@angular/forms';
+
 
 @Component({
   selector: 'app-dd',
